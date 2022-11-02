@@ -1,8 +1,8 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     font-family: 'Raleway', sans-serif
@@ -26,13 +26,12 @@ p{
 }
 
 header{
-   background-color: black;
-   color: white;
-   width: 100%;
-
+  background-color: black;
+  color: white;
+  width: 100%;
 }
 
-.nav{
+.nav {
   background-color: grey;
   color:white;
   text-decoration: none;
@@ -42,9 +41,34 @@ header{
   font-size: 1.5vw;
   text-decoration: none;
   left: 0;
+  justify-content: center;
 }
 
-imagindex,.imgabout{
+.navbar{
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.nav-item{
+  padding: 0.5rem;
+
+}
+
+.nav-item>a{
+  text-decoration: none;
+  background-color: grey;
+  color:white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1.2vw;
+}
+
+.nav-item>a:hover{
+  color:rgb(241, 180, 180);
+}
+
+
+.imagindex,.imgabout{
   width: 40%;
 }
 
@@ -52,7 +76,47 @@ imagindex,.imgabout{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align:end;
+  text-align: end;
+}
+
+.sec-cap{
+  background-color: rgb(241, 180, 180);
+  margin: 0;
+
+}
+
+.capacitaciones{
+  flex: 1 100px;
+  background-color: transparent;
+  border: none;
+  padding: 5rem 4rem 5rem 4rem;
+  justify-items: center;
+}
+
+.row{
+  justify-content: center;
+}
+
+.card-img-top{
+  border-radius: 0.5rem;
+}
+
+.card-title{ 
+  font-size: 1.0rem;
+}
+
+.card-subtitle{ 
+  font-size: 0.7rem;
+}
+
+.card-body>a{
+  text-decoration: none;
+  color: #000;
+}
+
+.card-body>a:hover{
+  text-decoration: none;
+  color: antiquewhite;
 }
 
 
@@ -61,10 +125,19 @@ footer{
   text-align: center;
   color: white;
   width: 100%;
- 
+  height: 12rem;
+  
+}
 
+.navbar-nav{
+  justify-content: center;
 
 }
+
+li>.redsocial {
+  padding: 2rem;
+}
+
 
 
 .galeria img {
@@ -118,12 +191,6 @@ form {
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 form {
