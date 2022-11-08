@@ -1,11 +1,13 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    font-family: 'Raleway', sans-serif
+    font-family: 'Raleway', sans-serif;
+    background-color:  rgb(241, 180, 180);
+
 }
 
 h1{
@@ -19,6 +21,7 @@ h2{
 
 h3{
   font-size: 1.5vw;
+  position:absolut;
 }
 
 p{
@@ -26,25 +29,52 @@ p{
 }
 
 header{
-   background-color: black;
-   color: white;
-   width: 100%;
-
+  background-color: black;
+  color: white;
+  width: 100%;
 }
 
-.nav{
+.nave {
   background-color: grey;
   color:white;
+  height: auto;
   text-decoration: none;
-  border-radius: 5px;
-  margin: 0.3%;
+  border-radius: 10px;
+  margin: auto;
   padding: 0.3%;
   font-size: 1.5vw;
   text-decoration: none;
   left: 0;
+  justify-content: center;
+  top:0;
+  width: 100%;
 }
 
-imagindex,.imgabout{
+.navbar{
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.nav-item{
+  padding: 0.5rem;
+
+}
+
+.nav-item>a{
+  text-decoration: none;
+  background-color: grey;
+  color:white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1.2vw;
+}
+
+.nav-item>a:hover{
+  color:rgb(241, 180, 180);
+}
+
+
+.imagindex,.imgabout{
   width: 40%;
 }
 
@@ -52,7 +82,47 @@ imagindex,.imgabout{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align:end;
+  text-align: end;
+}
+
+.sec-cap{
+  background-color: rgb(241, 180, 180);
+  margin: 0;
+
+}
+
+.capacitaciones{
+  flex: 1 100px;
+  background-color: transparent;
+  border: none;
+  padding: 5rem 4rem 5rem 4rem;
+  justify-items: center;
+}
+
+.row{
+  justify-content: center;
+}
+
+.card-img-top{
+  border-radius: 0.5rem;
+}
+
+.card-title{ 
+  font-size: 1.0rem;
+}
+
+.card-subtitle{ 
+  font-size: 0.7rem;
+}
+
+.card-body>a{
+  text-decoration: none;
+  color: #000;
+}
+
+.card-body>a:hover{
+  text-decoration: none;
+  color: antiquewhite;
 }
 
 
@@ -61,15 +131,25 @@ footer{
   text-align: center;
   color: white;
   width: 100%;
- 
+  height: 12rem;
+  
+}
 
+.navbar-nav{
+  justify-content: center;
 
 }
+
+li>.redsocial {
+  padding: 2rem;
+}
+
 
 
 .galeria img {
     width: 30%;
     transition: transform 0.5s;
+    margin: 1.3em;
 }
 
 .galeria >a{
@@ -110,30 +190,18 @@ footer{
 }
 
 
+
+
 form {
   /* Centrar el formulario en la página */
   margin: 0 auto;
+  margin-top: 50px;
   width: 400px;
   /* Esquema del formulario */
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-form {
-  /* Centrar el formulario en la página */
-  margin: 0 auto;
-  width: 400px;
-  /* Esquema del formulario */
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 1em;
+  background-color: rgb(244, 244, 235);
 }
 
 ul {
@@ -214,3 +282,93 @@ input[type=reset]:hover {
 background-color: red;
 }
 
+.titulos{
+  text-align: center;
+  text-decoration: underline;
+   
+}
+
+.grid-item1{
+  background-color:  rgb(241, 180, 180);
+  border:none;
+  display: display-outsite;
+  justify-content: overflow-;
+  align-items: stretch;
+  text-align: center;
+  ;
+  }
+
+  .grid-item2{
+    background-color: white;
+  border: 1px solid white;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  text-align: justify
+  }
+  .grid-item3{
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+    
+  }
+
+  /*estilo en contacto*/
+  
+  .grid-item_contact{
+    background-color:  rgb(241, 180, 180);
+    border: 5px solid white;
+    display: display-outsite;
+    justify-content: overflow-;
+    align-items: stretch;
+    text-align: center;
+    ;
+    /*para centrar el contenido dentro de cada cajita, uso flexbox*/
+    }
+    .grid-item_date{
+      background-color: white;
+      border: 1px solid white;
+      justify-content: overflow-;
+      align-items: stretch;
+      text-align: center;
+      /*para centrar el contenido dentro de cada cajita, uso flexbox*/
+
+    }
+    .grid-item-título{
+      background-color:  rgb(241, 180, 180);
+      border: 5px solid white;
+      /*para centrar el contenido dentro de cada cajita, uso flexbox*/
+      display: display-outsite;
+      justify-content: overflow-;
+      align-items: stretch;
+      text-align: center;
+
+    }
+h6{
+  font-size: 2vw;
+}
+h7{
+  
+  text-align:center;
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    background-color: rgb(253, 211, 211);
+  }
+
+}
+  
+@media screen and (min-width: 600px) and (max-width: 900px) {
+body{
+    background-color: rgb(157, 95, 95);
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+  body{
+      background-color: rgb(110, 108, 109);
+    }
+  
