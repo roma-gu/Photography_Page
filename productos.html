@@ -6,33 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="estilos.css">
     <script src="https://kit.fontawesome.com/761ef144db.js" crossorigin="anonymous"></script>
-    <title>Fotografia</title>
+        <title>Productos</title>
+        <link rel="stylesheet" href="fixes.css">
+
 </head>
 <body>
-  <header>
-
-    <h1>Dream Lagoon Photography</h1>
-
-<br>
-
-<nav>
-  <ul class="ul"><!-- ETIQUETA EN BLOQUE -->
-      <a class="nav" href="index.html">Inicio</a>
-      <a class="nav" href="productos.html">Productos</a>
-      <a class="nav" href="capacitaciones.html">Capacitaciones</a>
-      <a class="nav" href="contacto.html">Contacto</a>
-    
-  </ul>
+  <section>
+  <div class="fixed">
+    <header>
+      <h1>Dream Lagoon Photography</h1>
+      <br>
+     <nav>
+    <ul class="ul"><!-- ETIQUETA EN BLOQUE -->
+        <a class="nav" href="index.html">Inicio</a>
+        <a class="nav" href="productos.html">Productos</a>
+        <a class="nav" href="capacitaciones.html">Capacitaciones</a>
+        <a class="nav" href="contacto.html">Contacto</a>
+    </ul>
+    <br>
 </nav>
+</div>
 <br>
-
+</section>
 </header>
+<br>
+<br>
+<br>
+<br>
+<br>
 
   <main>
     <h1>Sesiones</h1>
     <h2>Dulce Espera</h2>
 <br>
+<div>
     <img src="imagen/embrazada.jpg" alt="foto de embarazada" width="500"></img>
+  </div>
     <br>
     <br>
     <p>Toda la emoción y dulzura en esta sesión, donde vos y la pancita son protagonistas.
@@ -47,30 +56,38 @@
       </p>
 <br>
 <br>
-      <h2>Paquetes</h2>
+<section>
+  <div class="container">
+      <h2>Paquetes</h2>      
       <br>
-      <table>
-        <tr>
-          <th>Paquete</th>
-          <th>Cantidad de Fotos</th>
-          <th>Precio</th>
-        </tr>
-        <tr>
-          <td>Petite</td>
-          <td>10</td>
-          <td>$30000</td>
-        </tr>
-        <tr>
-          <td>Especial</td>
-          <td>20</td>
-          <td>$40000</td>
-        </tr>
-        <tr>
-          <td>Completo</td>
-          <td>30</td>
-          <td>$50000</td>
-        </tr>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Paquete</th>
+            <th>Cantidad de Fotos</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Petite</td>
+            <td>10</td>
+            <td>$30000</td>
+          </tr>
+          <tr>
+            <td>Especial</td>
+            <td>20</td>
+            <td>$40000</td>
+          </tr>
+          <tr>
+            <td>Completo</td>
+            <td>30</td>
+            <td>$50000</td>
+          </tr>
+        </tbody>
       </table>
+    </div>
+      </div>
 <br>
       <h3>Las sesiones incluyen:</h3>
       <ul>
@@ -86,6 +103,8 @@
       </ul>
 
       </main>
+    </div>
+    </section>
       <footer>
   <br>
   
@@ -95,6 +114,6 @@
   
   <p>derechos reservados 2022</p>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

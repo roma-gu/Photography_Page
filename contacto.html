@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    
       <script src="https://kit.fontawesome.com/761ef144db.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+      <link rel="icon" href="./camera-solid-24.ico">
+    <title>Contacto</title>
 </head>
 <body>
     <!DOCTYPE html>
@@ -19,95 +19,111 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <meta name="keywords" content="fotos infantiles, fotografia, newborn, maternidad, familia">
        <meta name="description" content="fotos infantiles fotografia newborn maternidad familia">
-    <title>Inicio</title>
+           <title>Inicio</title>
+           <link rel="stylesheet" href="fixes.css">
     </head>
     
     <body>
     </head>
 
     <body>
+      <div class="fixed">
       <header>
-
         <h1>Dream Lagoon Photography</h1>
-    
-  <br>
-  
-  <nav>
+        <br>
+       <nav>
       <ul class="ul"><!-- ETIQUETA EN BLOQUE -->
           <a class="nav" href="index.html">Inicio</a>
           <a class="nav" href="productos.html">Productos</a>
           <a class="nav" href="capacitaciones.html">Capacitaciones</a>
           <a class="nav" href="contacto.html">Contacto</a>
-        
       </ul>
+      <br>
   </nav>
+</div>
   <br>
   
   </header>
-    
-    <main>
+      <main>
+      <br>
+      <br>
+      <br>
+      <br>
          <section>
             <article><br>
-                 <h2 style="text-align:center">Formulario de registro</h2> <br>
+              <div class="grid-container">
+                <br>
+                     <h2 style="text-align:center">Formulario de Contacto</h2> <br>
                  <form action="show_data.html" target="_blank">
-                
                     <label for="name">Nombre:</label>
                     <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
                     <br>
                     <br>
-
-                    <label for="lastname">Apellido:</label>
+                       <label for="lastname">Apellido:</label>
                     <input type="text" id="lastname" name="lastname" placeholder="Ingrese su apellido">
                     <br>
                     <br>
-    
-                   <label for="email">Email:</label>
+                       <label for="email">Email:</label>
                     <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
                     <br>
-                    <br>
-                    
-                    <label for="birthdate">Fecha de nacimiento (mm/dd/yyyy)</label>
-                    <input type="text" id="nacimiento" name="birthdate" placeholder="Ingrese su fecha de nacimiento" min="1" max="99">
-                    <br>
-                    <br>  
-      
-                   <label for="telefono">Telefono:</label>
-                    <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su telefono">
+                    <br>                       
+                      <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su telefono" required>
                     <br>
                     <br>               
-                    <p>Género<br><br>
-                    <input type="radio" name="gender" value="Hombre" checked>Hombre
-                    <input type="radio" name="gender" value="Mujer">Mujer
-                    <input type="radio" name="gender" value="Otro">Otro
+                    <p>Estudio Fotográfico de preferencia:<br><br>
+                    <input type="radio" name="sucursal" value="Floresta" checked>Floresta
+                    <input type="radio" name="sucursal" value="Caballito">Caballito
+                    <input type="radio" name="sucursal" value="Indistinto">Indistinto
                     </p>
-                    <p> Estudios: <br><br>
-                        <input type="checkbox" name="estudio" value="primarios">Primarios
-                        <input type="checkbox" name="estudio" value="secundarios">Secundarios
-                        <input type="checkbox" name="estudio" value="universitarios">Universitarios
-                    </p>
-<br>
+                    <br>
+                                       
+                   <label for="Asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="tu-asunto" placeholder="Ingrese su asunto" required>
+                    <br>
+                    <br>
                     <label for="msg">Mensaje:</label>
-                    <textarea id="msg" name="user_message" required></textarea>
+                    <textarea id="msg" name="user_message" placeholder="Ingrese su Mensaje" required></textarea>
                     <br>
                     <br>
 
                     <input type="reset" value="Borrar">
                     <input type="submit" value="Enviar">
                   </form>
+              
                </article>
+               
             </section>
      </main>  
-     <h2>¡Contactenos!</h2>
-    <li><a href="mailto:aixa.ratta@gmail.com">Mail: aixa.ratta@gmail.com</a></li>
-    <li><a href="tel:528130999454">Telefono: 528130999454</a></li>
-    <h3>Direccion de los estudios fotograficos</h3>
-    <p>Floresta:<a href="https://www.google.com.ar/maps/place/Av.+Segurola+200,+Buenos+Aires,+Argentina/@-34.6321097,-58.4867149,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc9960bcb7e6f:0xc0277727e0860cf4!8m2!3d-34.6321097!4d-58.4845262">Segurola 200</a></p>
+     
+     <div class="grid-item1">
+      <h2>¡Estamos en contacto!</h2>
+      <br>
+                              <div class="info_mail"><span class="info_address"></span>
+                <i class="fa-solid fa-envelope-circle-check"></i> <a href="rgualampa@gmail.com">Mail: rgualampa@gmail.com</a>
+    </div>
+      <div class="info_telefono"><span class="info_celu"></span>
+      <i class="fa-solid fa-mobile-retro"></i><a href="528130999454"> Teléfono: 528130999454</a>
+  </div>
+
+    <h3>Dirección de los estudios fotográficos</h3>
+    <br>
+        <br>
+    <div class="grid-item2">
     <p>Caballito:<a href="https://www.google.com.ar/maps/place/Rivadavia+5000,+C1424+CABA,+Argentina/@-34.6183759,-58.4383965,17z/data=!4m13!1m7!3m6!1s0x95bcca46cbee87df:0x95bd24a2cf6dfd61!2sRivadavia+5000,+C1424+CABA,+Argentina!3b1!8m2!3d-34.6183759!4d-58.4362078!3m4!1s0x95bcca46cbee87df:0x95bd24a2cf6dfd61!8m2!3d-34.6183759!4d-58.4362078">Rivadavia 5000</a></p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.437774185594!2d-58.438396485970635!3d-34.61837588045566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca46cbee87df%3A0x95bd24a2cf6dfd61!2sRivadavia%205000%2C%20C1424%20CABA%2C%20Argentina!5e0!3m2!1ses-419!2smx!4v1666772959822!5m2!1ses-419!2smx" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.437774185594!2d-58.438396485970635!3d-34.61837588045566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca46cbee87df%3A0x95bd24a2cf6dfd61!2sRivadavia%205000%2C%20C1424%20CABA%2C%20Argentina!5e0!3m2!1ses-419!2smx!4v1666772959822!5m2!1ses-419!2smx" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p>Floresta:<a href="https://www.google.com.ar/maps/place/Av.+Segurola+200,+Buenos+Aires,+Argentina/@-34.6321097,-58.4867149,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc9960bcb7e6f:0xc0277727e0860cf4!8m2!3d-34.6321097!4d-58.4845262">Segurola 200</a></p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.894363845663!2d-58.484526200000005!3d-34.6321097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9960bcb7e6f%3A0xc0277727e0860cf4!2sAv.%20Segurola%20200%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2smx!4v1666773021065!5m2!1ses-419!2smx" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </div>
+
+</div>
+
 </body>
 <footer>
-    <br>
-    <p style="text-align:center">derechos reservados 2022</p>
+  <br>
+  <a href="https://www.twitter.com/twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="https://www.facebook.com/romina.gi.50" target=""_blank><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://www.instagram.com/aixa2473" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+  <p>derechos reservados 2022</p>
 </footer>
 </html>

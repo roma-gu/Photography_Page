@@ -9,16 +9,17 @@ body{
 }
 
 h1{
-  text-align:center;
+  text-align:left;
   font-size: 3vw;
 }
 
 h2{
-  font-size: 2vw;
+    font-size: 1.35vw;
 }
 
 h3{
-  font-size: 1.5vw;
+  font-size: 1.35vw;
+  text-align: center;
 }
 
 p{
@@ -36,7 +37,7 @@ header{
   background-color: grey;
   color:white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 15px;
   margin: 0.3%;
   padding: 0.3%;
   font-size: 1.5vw;
@@ -52,7 +53,7 @@ imagindex,.imgabout{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align:end;
+  text-align: end;
 }
 
 
@@ -116,7 +117,7 @@ form {
   width: 400px;
   /* Esquema del formulario */
   padding: 1em;
-  border: 1px solid #CCC;
+  border: 2px solid rgb(15, 14, 14);
   border-radius: 1em;
 }
 
@@ -214,3 +215,38 @@ input[type=reset]:hover {
 background-color: red;
 }
 
+.grid-container{
+  background-color: white;
+    display: display-internal;
+grid-template-columns: 10rem 10rem;
+grid-template-rows: 10rem 10rem;
+gap: 1rem;
+column-gap: 1rem;
+row-gap: 1rem;
+}
+
+.grid-item1{
+  background-color: white;
+  border: 1px solid white;
+  /*para centrar el contenido dentro de cada cajita, uso flexbox*/
+  display: display-outsite;
+  justify-content: overflow-;
+  align-items: stretch;
+  text-align: end
+  /*para centrar el contenido dentro de cada cajita, uso flexbox*/
+  }
+
+  .grid-item2{
+    background-color: white;
+  border: 1px solid white;
+  /*para centrar el contenido dentro de cada cajita, uso flexbox*/
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  text-align: justify
+  /*para centrar el contenido dentro de cada cajita, uso flexbox*/
+  }
+  
+  .imagen-embarazada{
+    justify-content: stretch;
+  }
